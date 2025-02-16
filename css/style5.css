@@ -1,0 +1,18 @@
+body {
+    background-color: #0b5b80;
+}
+
+.box {
+    width: 6vw;
+    height: 6vw;
+    background-color: orchid;
+    border-radius: 50%;
+    position: absolute;
+    cursor: pointer;
+
+}
+.forms {
+    position: absolute;
+    width: 20%;
+    cursor: grab;
+}

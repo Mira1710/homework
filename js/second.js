@@ -1,14 +1,41 @@
 document.addEventListener("DOMContentLoaded", function(){
+    
+    // 1 задание
+    
+    let age = parseInt(prompt("Введите ваш возраст:"));
+    if (age >= 65) {
+        console.log("Вам ещё рано на пенсию");
+    } else {
+        console.log("Поздравляем с пенсионным возрастом!");
+    }
+    
 
-    let a = 10;
-    let b = 20;
+// 2 задание
 
-    console.log(a > 0 || b > 0);
+    let a = 20;
+    let b = 10;
+
+    if ( a >= b) {
+        console.log("Первое число больше");
+    } else {
+        console.log("Второе число больше");
+    }
+
+
+// 3 задание
+
+const number = parseInt(prompt("Введите число:"));
+
+if (number % 2 === 0) {
+    console.log("Это чётное число");
+} else {
+    console.log("Это нечётное число");
+}
+
+
+
     
 
 
 
-
-
-
-    })
+})
